@@ -15,7 +15,7 @@ Urmăriți modificările și evoluția acestui proiect pe Twitter
 
 * [Introducere](#introducere)
     * [Importanța unui ghid stilistic](#importanța-unui-ghid-stilistic)
-    * [Disclaimers](#disclaimers)
+    * [Declinări](#declinări)
 * [Syntax and Formatting](#syntax-and-formatting)
     * [Multiple Files](#multiple-files)
     * [Table of Contents](#table-of-contents)
@@ -116,16 +116,15 @@ Un bun ghid stilistic, bine aplicat:
 Ghidurile stilistice trebuie cunoscute, înțelese și implementate pe întreaga
 perioadă de dezvoltare a unui proiect, și orice deviere va fi bine justificată.
 
-### Disclaimers
+### Declinări
 
-<cite>CSS Guidelines</cite> is _a_ styleguide; it is not _the_ styleguide. It
-contains methodologies, techniques, and tips that I would firmly recommend to my
-clients and teams, but your own tastes and circumstances may well be different.
-Your mileage may vary.
+**Indicații CSS** este *un* ghid stilistic; nu este *ghidul* stilistic. El
+conține metodologii, tehnici, și sfaturi pe care le recomand cu fermitate
+clienților mei și echipelor, dar gusturile și circumstanțele pot fi diferite.
 
-These guidelines are opinionated, but they have been repeatedly tried, tested,
-stressed, refined, broken, reworked, and revisited over a number of years on
-projects of all sizes.
+Indicațiile acestui ghid sunt dogmatice, dar ele au fost, de nenumărate ori,
+încercate, testate, accentuate, rupte, recreate și revizuite pe parcursul mai
+multor ani la proiecte de mărimi diferite.
 
 ---
 
