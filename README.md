@@ -1,6 +1,8 @@
 
 # Indicații CSS Guidelines
 
+**Documentul se află în proces de traducere.**
+
 ## Despre autori
 
 Acest document este o traducere după [documentul original](https://cssguidelin.es/)
@@ -16,7 +18,7 @@ Urmăriți modificările și evoluția acestui proiect pe Twitter
 * [Introducere](#introducere)
     * [Importanța unui ghid stilistic](#importanța-unui-ghid-stilistic)
     * [Declinări](#declinări)
-* [Syntax and Formatting](#syntax-and-formatting)
+* [Sintaxă și formatare](#sintaxă-și-formatare)
     * [Multiple Files](#multiple-files)
     * [Table of Contents](#table-of-contents)
     * [80 Characters Wide](#characters-wide)
@@ -74,7 +76,7 @@ Urmăriți modificările și evoluția acestui proiect pe Twitter
 
 ## Introducere
 
-CSS nu este un limbaj frumos. Deși este simplu de învățat și de scris primele
+CSS nu este un limbaj simplu. Deși este ușor de învățat și de scris primele
 exemple, devine destul de problematic odată cu creșterea volumului codului.
 Nu putem face nimic cu modul în care funcționează CSS, dar putem îmbunătăți
 modul în care scriem și structurăm codul.
@@ -119,7 +121,7 @@ perioadă de dezvoltare a unui proiect, și orice deviere va fi bine justificat�
 ### Declinări
 
 **Indicații CSS** este *un* ghid stilistic; nu este *ghidul* stilistic. El
-conține metodologii, tehnici, și sfaturi pe care le recomand cu fermitate
+conține metodologii, tehnici și sfaturi pe care le recomand cu fermitate
 clienților mei și echipelor, dar gusturile și circumstanțele pot fi diferite.
 
 Indicațiile acestui ghid sunt dogmatice, dar ele au fost, de nenumărate ori,
@@ -128,25 +130,24 @@ multor ani la proiecte de mărimi diferite.
 
 ---
 
-## Syntax and Formatting
+## Sintaxă și formatare
 
-One of the simplest forms of a styleguide is a set of rules regarding syntax and
-formatting. Having a standard way of writing (_literally_ writing) CSS means
-that code will always look and feel familiar to all members of the team.
+Una dintre cele mai simple forme a unui ghid stilistic o reprezintă un set de
+reguli de sintaxă și formatare. Implementarea unui standard de scriere a codului
+CSS aduce cu sine un cod ușor de înțeles pentru toți membrii echipei.
 
-Further, code that looks clean _feels_ clean. It is a much nicer environment to
-work in, and prompts other team members to maintain the standard of cleanliness
-that they found. Ugly code sets a bad precedent.
+Mai mult, un cod curat se *simte* curat. Este un mediu mult mai plăcut de lucru,
+care stimulează ceilalți membri ai echipei să mențină standardul de curățenie pe
+care l-au găsit. Codul murdar, creează un precedent neplăcut.
 
-At a very high-level, we want
+În linii mari, dorim:
 
-* two (2) space indents, no tabs;
-* 80 character wide columns;
-* multi-line CSS;
-* meaningful use of whitespace.
+* două (2) linii de spațiu, fără tab-uri;
+* coloane de 80 caractere;
+* blocuri CSS pe linii multiple;
+* utilizarea înțeleaptă a spațiilor albe.
 
-<span class="highlight" id="did-you-see-this-bit">But, as with anything, the
-specifics are somewhat irrelevant—consistency is key.</span>
+Dar, ca de obicei, specificul este oarecum irelevant — consistența este cheia.
 
 ### Multiple Files
 
