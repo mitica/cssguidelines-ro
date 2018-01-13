@@ -149,10 +149,13 @@ care l-au găsit. Codul murdar, creează un precedent neplăcut.
 
 Dar, ca de obicei, specificul este oarecum irelevant — consistența este cheia.
 
-### Multiple Files
+### Fișiere multiple
 
-With the meteoric rise of preprocessors of late, more often is the case that
-developers are splitting CSS across multiple files.
+Odată cu creșterea popularității preprocesoarelor, dezvoltatorii obișnuesc să
+devizeze condul CSS câteva fișiere.
+
+Chiar dacă nu folosim un preprocesor, este o idee bună să separăm codul CSS în
+bucăți mai mici, care vor fi concatinate în procesul de 
 
 Even if not using a preprocessor, it is a good idea to split discrete chunks of
 code into their own files, which are concatenated during a build step.
