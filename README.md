@@ -21,7 +21,7 @@ Urmăriți modificările și evoluția acestui proiect pe Twitter
 * [Sintaxă și formatare](#sintaxă-și-formatare)
     * [Fișiere multiple](#fișiere-multiple)
     * [Cuprinsul](#cuprinsul)
-    * [80 Characters Wide](#characters-wide)
+    * [80 de caractere](#80-de-caractere)
     * [Titling](#titling)
     * [Anatomy of a Ruleset](#anatomy-of-a-ruleset)
     * [Multi-line CSS](#multi-line-css)
@@ -202,23 +202,25 @@ Firește, această secțiune va fi substanțial mai mare pentru majoritatea
 proiectelor, dar sperăm să putem vedea cum această secțiune - în foaia de stil
 principală - oferă dezvoltatorilor o vedere generală despre ce folosim și de ce.
 
-### 80 Characters Wide
+### 80 de caractere
 
-Where possible, limit CSS files’ width to 80 characters. Reasons for this
-include
+Unde este cu putință, limitați lungimea textului din foile de stil la 80 de
+caractere. Unele dintre motive sunt următoarele:
 
-* the ability to have multiple files open side by side;
-* viewing CSS on sites like GitHub, or in terminal windows;
-* providing a comfortable line length for comments.
+* posibilitatea de a deschide mai multe fișiere alături;
+* vizualizarea foilor de stil pe GitHub sau în fereastra terminalului;
+* oferă o lungime comodă pentru comentarii.
 
-<pre><code>/**
+```css
+/**
  * I am a long-form comment. I describe, in detail, the CSS that follows. I am
  * such a long comment that I easily break the 80 character limit, so I am
  * broken across several lines.
- */</code></pre>
+ */
+ ```
 
-There will be unavoidable exceptions to this rule—such as URLs, or gradient
-syntax—which shouldn’t be worried about.
+Vor exista excepții de la regulă, ca de exemplu: URL-uri, sau sintaxa gradient.
+Aceste sunt excepții acceptabile și nu trebuie să ne facem griji pentru ele.
 
 ### Titling
 
