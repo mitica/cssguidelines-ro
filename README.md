@@ -19,8 +19,8 @@ Urmăriți modificările și evoluția acestui proiect pe Twitter
     * [Importanța unui ghid stilistic](#importanța-unui-ghid-stilistic)
     * [Declinări](#declinări)
 * [Sintaxă și formatare](#sintaxă-și-formatare)
-    * [Multiple Files](#multiple-files)
-    * [Table of Contents](#table-of-contents)
+    * [Fișiere multiple](#fișiere-multiple)
+    * [Cuprinsul](#cuprinsul)
     * [80 Characters Wide](#characters-wide)
     * [Titling](#titling)
     * [Anatomy of a Ruleset](#anatomy-of-a-ruleset)
@@ -152,27 +152,21 @@ Dar, ca de obicei, specificul este oarecum irelevant — consistența este cheia
 ### Fișiere multiple
 
 Odată cu creșterea popularității preprocesoarelor, dezvoltatorii obișnuesc să
-devizeze condul CSS câteva fișiere.
+devizeze condul CSS în câteva fișiere.
 
 Chiar dacă nu folosim un preprocesor, este o idee bună să separăm codul CSS în
-bucăți mai mici, care vor fi concatinate în procesul de 
+bucăți mai mici, care vor fi concatinate în procesul de procesare.
 
-Even if not using a preprocessor, it is a good idea to split discrete chunks of
-code into their own files, which are concatenated during a build step.
+### Cuprinsul
 
-If, for whatever reason, you are not working across multiple files, the next
-sections might require some bending to fit your setup.
+Întreținerea unui cuprins poate fi o cheltuială substanțială, dar beneficiile
+aduse acoperă orice cheltuieli. Este nevoie de un dezvoltator varnic pentru a
+menține un cuprins actual, dar merită efortul. Un cuprins actual oferă întregii
+echipe un singur catalog valabil despre ce este într-un proiect CSS, ce face și
+în ce ordine.
 
-### Table of Contents
-
-A table of contents is a fairly substantial maintenance overhead, but the
-benefits it brings far outweigh any costs. It takes a diligent developer to keep
-a table of contents up to date, but it is well worth sticking with. An
-up-to-date table of contents provides a team with a single, canonical catalogue
-of what is in a CSS project, what it does, and in what order.  
-
-A simple table of contents will—in order, naturally—simply provide the name of
-the section and a brief summary of what it is and does, for example:
+Un cuprins simplu, într-un mod firesc, va conține numele secțiunii și o scurtă
+descriere despre ce este și ce face, de exemplu:
 
 ```
 /**
@@ -204,12 +198,9 @@ the section and a brief summary of what it is and does, for example:
  */
 ```
 
-Each item maps to a section and/or include.
-
-Naturally, this section would be substantially larger on the majority of
-projects, but hopefully we can see how this section—in the master
-stylesheet—provides developers with a project-wide view of what is being used
-where, and why.
+Firește, această secțiune va fi substanțial mai mare pentru majoritatea
+proiectelor, dar sperăm să putem vedea cum această secțiune - în foaia de stil
+principală - oferă dezvoltatorilor o vedere generală despre ce folosim și de ce.
 
 ### 80 Characters Wide
 
